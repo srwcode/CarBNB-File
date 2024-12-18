@@ -1,0 +1,117 @@
+.spot-image {
+    object-fit: cover;
+    width: 115px;
+    height: 115px;
+    border-radius: 0.5rem;
+}
+
+.spot-show-image {
+    object-fit: cover;
+    min-width: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0.5rem;
+}
+
+.reservation-show-image {
+    object-fit: cover;
+    min-width: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0.5rem;
+}
+
+.dashboard-vehicle-image {
+    object-fit: cover;
+    width: 70%;
+    aspect-ratio: 1 / 1;
+    border-radius: 0.5rem;
+}
+
+.display-error {
+    background-color: #fef2f2;
+    border: 1px solid #ef4444;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    margin: 2rem 0;
+    color: #991b1b;
+}
+
+.display-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.table-border td {
+    border-color: #eee;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
+.schedule-image {
+    object-fit: cover;
+    width: 115px;
+    height: 115px;
+    border-radius: 0.5rem;
+}
+
+.schedule-show-image {
+    object-fit: cover;
+    min-width: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0.5rem;
+}
+
+
+
+.flatpickr-calendar.static {
+    right: 0 !important;
+}
+
+.user-image img {
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}
+
+.image-upload img {
+    object-fit: cover;
+    width: auto;
+    height: 122px;
+    aspect-ratio: 1 / 1;
+    border-radius: 0.5rem;
+}
+
+.rs-btn-primary {
+    background-color: #3498ff !important;
+}
+.rs-picker-popup.rs-picker-popup-daterange {
+    z-index: 99 !important;
+}
+
+.rs-input {
+    font-size: 1rem !important;
+    line-height: 1.5;
+    padding: 0.75rem 0 0.75rem 1.25rem !important;
+}
+
+.rs-input-group {
+    border: 1.5px solid #e2e8f0 !important;
+}
+
+.rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus, .rs-input-group:focus-within {
+    outline: none !important;
+}
+
+.rs-input-group.rs-input-group-inside .rs-input-group-addon {
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem !important;
+}
